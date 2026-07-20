@@ -191,15 +191,8 @@ portfolio/
 │
 ├── index.html              # Main portfolio page
 │
-├── assets/
-│   ├── images/             # Images and graphics
-│   └── icons/              # Icons
+├── style.css           # Website styling
 │
-├── css/
-│   └── style.css           # Website styling
-│
-├── js/
-│   └── script.js           # Interactive functionality
 │
 └── README.md
 ```
