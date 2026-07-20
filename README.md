@@ -1,10 +1,10 @@
-# 🌐 Harini Mannam — Portfolio
+# 🌐 Harini Mannam — Developer Portfolio
 
-A personal developer portfolio website showcasing my skills, projects, experience, and journey as a Computer Science Engineering student.
+A personal portfolio website showcasing my skills, projects, education, and experience as a Computer Science Engineering student.
 
-The portfolio highlights my work in **web development, software development, computer vision, and full-stack applications**.
+The website is designed with a clean developer-focused interface to highlight my journey in **software development, web development, computer vision, and full-stack application development**.
 
-🔗 **Live Portfolio:** Add your deployed link here
+🔗 **Live Portfolio:** Add your deployed GitHub Pages / Netlify link here
 
 ---
 
@@ -12,51 +12,171 @@ The portfolio highlights my work in **web development, software development, com
 
 Hi, I'm **Harini Mannam**, a final-year **B.Tech Computer Science Engineering student (Class of 2027)** at **CMR Engineering College**.
 
-I enjoy building clean, usable web applications and solving real-world problems through software.
+I enjoy building clean, usable web applications and solving real-world problems through technology.
 
 Currently, I am:
 
-- 🎓 Pursuing B.Tech CSE
-- 💻 Learning and building full-stack applications
-- 🚀 Open to Software Development / Web Development internships
-- 🤝 Interested in creating impactful software solutions
+- 🎓 Pursuing B.Tech in Computer Science Engineering
+- 💻 Building full-stack and frontend applications
+- 🚀 Looking for Software Development / Web Development internships
+- 🌱 Exploring React, Django, Flask, and AI-powered applications
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-### Programming Languages
+## 🏠 Landing Page
+
+- Developer introduction
+- Internship availability status
+- Quick navigation
+- GitHub and LinkedIn links
+
+---
+
+## 👩‍💻 About Section
+
+Highlights:
+
+- Programming languages
+- Web development skills
+- Backend technologies
+- Databases
+- Development tools
+
+---
+
+## 🚀 Projects Showcase
+
+Displays featured projects with:
+
+- Project descriptions
+- Technologies used
+- Development highlights
+
+Projects include:
+
+### 📄 Smart Document Scanner
+
+A Flask + OpenCV application that converts document images into clean scanned documents.
+
+**Technologies:**
+
+- Python
+- Flask
+- OpenCV
+- Tesseract OCR
+
+---
+
+### 🤖 AI Resume Screening System
+
+An intelligent resume ranking system that matches resumes with job descriptions using OCR, NLP, and scoring algorithms.
+
+**Technologies:**
+
+- Python
+- Flask
+- OpenCV
+- Tesseract OCR
+- NumPy
+
+---
+
+### 🎬 Critix
+
+A full-stack movie and book review platform.
+
+**Technologies:**
+
+- Django
+- Bootstrap
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### 🧵 Handicrafts E-Commerce
+
+A responsive e-commerce website concept for traditional Indian handicrafts.
+
+**Technologies:**
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### 🥗 Nutrition Diet Packets
+
+A product-focused nutrition website with interactive sections.
+
+**Technologies:**
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### 💱 Currency Converter
+
+A JavaScript-based currency conversion application.
+
+**Technologies:**
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### 🎱 Bingo Party
+
+A browser-based Bingo game with random number generation and win detection.
+
+**Technologies:**
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+# 🛠️ Tech Stack
+
+## Languages
 
 - Java
 - Python
 - C
+- JavaScript
 
-### Frontend Development
+## Frontend
 
 - HTML5
 - CSS3
-- JavaScript
 - React.js
 - Bootstrap
 
-### Backend Development
+## Backend
 
 - Django
 - Flask
 
-### Data & Databases
+## Databases
 
 - MySQL
 - SQLite3
-- Pandas
-- Plotly
 
-### Computer Vision & OCR
+## Computer Vision / AI
 
 - OpenCV
 - Tesseract OCR
 
-### Tools
+## Tools
 
 - VS Code
 - GitHub
@@ -64,195 +184,127 @@ Currently, I am:
 
 ---
 
-# 🚀 Featured Projects
+# 📂 Project Structure
 
-## 📄 Smart Document Scanner
-
-A Flask + OpenCV based document scanning application that converts images into clean scanned documents.
-
-Features:
-
-- Document edge detection
-- Perspective correction
-- Shadow removal
-- Image denoising
-- Tesseract OCR extraction
-- Document classification
-- Offline extractive text summarization
-
-**Technologies**
-
-`Python` `Flask` `OpenCV` `Tesseract OCR`
-
----
-
-## 🎬 Critix
-
-A full-stack movie and book review platform.
-
-Features:
-
-- Search movie/book catalog
-- Add ratings and reviews
-- Browse content by categories
-- Responsive user interface
-
-Built with Django backend and Bootstrap frontend.
-
-**Technologies**
-
-`Django` `Bootstrap` `HTML` `CSS` `JavaScript`
+```
+portfolio/
+│
+├── index.html              # Main portfolio page
+│
+├── assets/
+│   ├── images/             # Images and graphics
+│   └── icons/              # Icons
+│
+├── css/
+│   └── style.css           # Website styling
+│
+├── js/
+│   └── script.js           # Interactive functionality
+│
+└── README.md
+```
 
 ---
 
-## 🧵 Handicrafts E-Commerce
+# 🚀 Run Locally
 
-A responsive storefront concept for traditional Indian handicrafts.
+## Clone Repository
 
-Features:
+```bash
+git clone https://github.com/harini84-mannam/portfolio.git
+```
 
-- Product filtering
-- Interactive UI components
-- Responsive design
+Navigate to the project:
 
-**Technologies**
+```bash
+cd portfolio
+```
 
-`HTML` `CSS` `JavaScript`
+Open:
 
----
+```
+index.html
+```
 
-## 🥗 Nutrition Diet Packets
+in your browser.
 
-A promotional website for single-serve nutrition packets.
-
-Features:
-
-- Dynamic sections
-- Interactive elements
-- Clean product-focused design
-
-**Technologies**
-
-`HTML` `CSS` `JavaScript`
+No installation or dependencies are required.
 
 ---
 
-## 💱 Currency Converter
+# 🌍 Deployment
 
-A browser-based currency conversion application.
+This portfolio can be deployed using:
 
-Features:
+- GitHub Pages
+- Netlify
+- Vercel
 
-- Multiple currency support
-- Live input handling
-- Conversion calculations
+Example GitHub Pages URL:
 
-**Technologies**
-
-`HTML` `CSS` `JavaScript`
-
----
-
-## 🎱 Bingo Party
-
-A fun browser-based Bingo game.
-
-Features:
-
-- Random 5×5 Bingo board
-- Number calling system
-- Win detection logic
-
-**Technologies**
-
-`HTML` `CSS` `JavaScript`
+```
+https://harini84-mannam.github.io/portfolio/
+```
 
 ---
 
-# 💼 Experience
+# 📱 Responsive Design
 
-## Software Development Intern
+The website supports:
 
-**Meslova Systems**
+- Desktop screens
+- Tablets
+- Mobile devices
 
-📅 May 2026 — October 2026
-
-- Gaining practical software development experience
-- Working on real-world development tasks
-- Improving programming and collaboration skills
+Built using responsive CSS techniques for better accessibility across devices.
 
 ---
 
-## College Hackathon Participant
+# 🎯 Purpose
 
-**CMR Engineering College**
+This portfolio was created to:
 
-📅 2025
-
-- Presented an innovative web-based solution
-- Collaborated with teammates to build a working prototype
-
----
-
-# 🎓 Education
-
-## B.Tech Computer Science Engineering
-
-**CMR Engineering College, Medchal, Hyderabad**
-
-2023 — 2027 (Expected)
-
-- 4th Year, 1st Semester
-- Current CGPA: 7.5 / 10
-
----
-
-## Intermediate (Class 12)
-
-**Narayana Junior College, Kukatpally, Hyderabad**
-
-2023
-
-- Percentage: 87%
-
----
-
-## Class 10
-
-**Narayana High School, Nizampet, Hyderabad**
-
-2021
-
-- GPA: 10 / 10
+- Showcase my software projects
+- Demonstrate frontend development skills
+- Present my technical experience
+- Provide recruiters with an overview of my work
 
 ---
 
 # 📬 Contact
 
-I'm open to:
+Open to:
 
 - Software Development Internships
 - Web Development Internships
-- Collaborative projects
-- Learning opportunities
+- Collaboration opportunities
 
 Connect with me:
 
-- GitHub: https://github.com/harini84-mannam
-- LinkedIn: Add your LinkedIn URL
-- Email: Add your email
+GitHub:
+```
+https://github.com/harini84-mannam
+```
+
+LinkedIn:
+```
+https://www.linkedin.com/in/harini-mannam-052aa730b/
+```
+
+Email:
+```
+harinimannam2006@gmail.com
+```
 
 ---
 
-# 📌 Portfolio Sections
+# 👩‍💻 Author
 
-```
-01 About
-02 Projects
-03 Experience
-04 Contact
-```
+**Harini Mannam**
+
+B.Tech Computer Science Engineering  
+CMR Engineering College
 
 ---
 
-⭐ Thanks for visiting my portfolio!
+⭐ If you like my portfolio, consider giving this repository a star!
