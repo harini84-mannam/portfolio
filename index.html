@@ -75,19 +75,7 @@
         <div class="stack-row">
           <span class="stack-label">web</span>
           <div class="pill-group">
-            <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">React.js</span><span class="pill">Bootstrap</span>
-          </div>
-        </div>
-        <div class="stack-row">
-          <span class="stack-label">Backend framework</span>
-          <div class="pill-group">
-            <span class="pill">Django</span>
-          </div>
-        </div>
-        <div class="stack-row">
-          <span class="stack-label">Image Processing</span>
-          <div class="pill-group">
-            <span class="pill">OpenCV</span><span class="pill">Tesseract OCR</span>
+            <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">React.js</span><span class="pill">Bootstrap</span><span class="pill">Django</span>
           </div>
         </div>
         <div class="stack-row">
@@ -99,7 +87,7 @@
         <div class="stack-row">
           <span class="stack-label">tools</span>
           <div class="pill-group">
-            <span class="pill">VS Code</span><span class="pill">GitHub</span><span class="pill">Jupyter-notebook</span>
+            <span class="pill">VS Code</span><span class="pill">GitHub</span>
           </div>
         </div>
       </div>
@@ -118,6 +106,14 @@
         </div>
         <p class="project-desc">A Flask + OpenCV web app that turns phone photos of documents into clean, scanned PDFs. Automatically detects document edges and corrects perspective, removes shadows and denoises the image, then runs Tesseract OCR. A lightweight classifier tells posters, invoices, and dense text documents apart and applies a different extraction strategy to each — including a fully offline, from-scratch extractive text summarizer (word-frequency sentence scoring, no external API).</p>
         <div class="project-tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">OpenCV</span><span class="tag">Tesseract OCR</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-name">ai-resume-screening-system</span>
+        </div>
+        <p class="project-desc">A Flask app that ranks resumes against a job description automatically. Handles text, PDFs, and scanned images alike — running an OpenCV preprocessing pipeline (deskewing, CLAHE contrast, adaptive thresholding) and Tesseract OCR on scanned input before extracting structured fields like skills, education, and experience. Scores each candidate with a hand-written TF-IDF + cosine-similarity matcher (pure NumPy, no scikit-learn) across skills, experience, education, and certifications, then ranks and shortlists candidates with CSV export.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">OpenCV</span><span class="tag">Tesseract OCR</span><span class="tag">NumPy</span></div>
       </div>
 
       <div class="project-card">
@@ -149,7 +145,7 @@
           <span class="project-name">currency-converter</span>
         </div>
         <p class="project-desc">A currency converter with real-time exchange calculations across multiple currencies, handling live input parsing and conversion logic entirely in vanilla JavaScript.</p>
-        <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        <div class="project-tags"><span class="tag">JavaScript</span></div>
       </div>
 
       <div class="project-card">
